@@ -546,6 +546,14 @@ footer p {
     padding-bottom: 1rem;
 }
 
+@media screen and (max-height: 820px) {
+
+    #skills, #projects {
+        height: 120vh;
+    }
+    
+}
+
 
 
 
