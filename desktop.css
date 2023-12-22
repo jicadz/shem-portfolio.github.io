@@ -552,6 +552,10 @@ footer p {
     #skills, #projects {
         height: 130vh;
     }
+
+    #skills .scroll-down, #projects .scroll-down {
+        bottom: 25%;
+    }
     
 }
 
