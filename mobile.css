@@ -6,7 +6,7 @@
     }
 
     h1 {
-        padding-top: 1rem;
+        padding: 0;
     }
     
     /* NAV */
@@ -21,6 +21,7 @@
     }
 
     .logo {
+        padding: 0;
         font-size: 1.5rem;
     }
 
@@ -149,14 +150,13 @@
 
 
     .chatbox {
-        transform: scale(.9);
-        margin: 0;
+        margin: .5rem 0;
         background: rgba(255, 255, 255, .8);
         box-shadow: 0 0 6px gray;
     }
 
     .chatbox p {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     /* .scroll-down {
@@ -178,6 +178,7 @@
     .educ-boxes {
         justify-content: space-evenly;
         padding: 0;
+        row-gap: .5rem;
     }
 
     .circle {
@@ -189,7 +190,8 @@
     .box {
         padding: 0 .5rem;
         padding-top: 2.5rem;
-        height: 20%;
+        max-width: 300px;
+        height: 120px;
     }
 
     .box p {
@@ -201,88 +203,104 @@
 
     .school-level {
         color: cyan;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     
     .school-name {
         color: #f99301;
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     /* SKILLS */
 
     .skills-boxes {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        align-items: flex-end;
         row-gap: 1.5rem;
         padding-top: 2rem;
+        height: 60%;
     }
 
     .skill {
-        width: 70%;
-        max-width: 400px;
-        height: fit-content;
+        width: 210px;
+        height: 220px;
+        row-gap: .5rem;
+        margin: 0 .5rem;
     }
 
     .skill h3 {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .skill p {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     /* PROJECTS */
 
     .projects-boxes {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         row-gap: 1.5rem;
         padding-top: 2rem;
+        height: 60%;
     }
 
     .project {
-        width: 70%;
-        max-width: 400px;
+        width: 210px;
         height: 210px;
+        margin: 0 .5rem;
     }
 
     /* CONTACTS */
 
     .contacts {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        height: 60%;
         align-items: center;
         row-gap: 1.5rem;
     }
 
     .contact {
-        width: 40%;
-        max-width: 300px;
-        min-width: 200px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        row-gap: .5rem;
         text-align: center;
+        margin: 0 1rem;
     }
 
     .contact h3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .contact p {
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
 
     /* FOOTER */
 
+    footer {
+        row-gap: .5rem;
+    }
+
+    .footer-nav {
+        padding-top: .5rem;
+    }
+
     .footer-nav ul {
-        column-gap: 2rem;
-        display: inline-flex;
         flex-wrap: wrap;
         justify-content: center;
-        line-height: 2;
+        line-height: 1.5;
     }
-    
+
+    .footer-nav ul li a {
+        font-size: 1rem;
+    }
+
     footer p {
-        padding-bottom: 2rem;
+        font-size: .8rem;
+        padding-bottom: 1rem;
     }
+
 }

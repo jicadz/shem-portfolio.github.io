@@ -6,7 +6,7 @@
     }
 
     h1 {
-        padding-top: 1rem;
+        padding: 0;
     }
 
     /* NAV */
@@ -187,6 +187,8 @@
     .educ-boxes {
         justify-content: space-evenly;
         padding: 0;
+        padding-top: 1rem;
+        row-gap: 1rem;
     }
 
     .circle {
@@ -198,8 +200,8 @@
     .box {
         padding: 0 .5rem;
         padding-top: 2.5rem;
-        padding-bottom: 1rem;
-        max-width: 500px;
+        max-width: 300px;
+        height: 120px;
     }
 
     .box p {
@@ -211,88 +213,88 @@
 
     .school-level {
         color: cyan;
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
     
     .school-name {
         color: #f99301;
-        font-size: 1.2rem;
+        font-size: .8rem;
+        padding-bottom: 1rem;
     }
 
     /* SKILLS */
 
     .skills-boxes {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        align-items: flex-end;
         row-gap: 1.5rem;
         padding-top: 2rem;
+        height: 60%;
     }
 
     .skill {
-        width: 70%;
-        max-width: 500px;
-        height: fit-content;
+        width: 230px;
+        height: 200px;
+        margin: 0 .5rem;
     }
 
     .skill h3 {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .skill p {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     /* PROJECTS */
 
     .projects-boxes {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         row-gap: 1.5rem;
         padding-top: 2rem;
+        height: 60%;
     }
 
     .project {
-        width: 70%;
-        max-width: 500px;
+        width: 230px;
         height: 210px;
+        margin: 0 .5rem;
     }
 
     /* CONTACTS */
 
     .contacts {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        height: 60%;
         align-items: center;
         row-gap: 1.5rem;
     }
 
     .contact {
-        width: 60%;
-        max-width: 300px;
+        width: 200px;
         height: 180px;
         text-align: center;
+        margin: 0 1rem;
     }
 
     .contact h3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .contact p {
-        font-size: 1.2rem;
+        font-size: .9rem;
     }
 
     /* FOOTER */
 
     .footer-nav ul {
-        column-gap: 2rem;
-        display: inline-flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        line-height: 2;
+        column-gap: 1.2rem;
     }
     
     footer p {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 }
 
