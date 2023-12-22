@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">SHEM</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger-nav-image" onclick="toggleNav()">
+            <img src="/assets/hamburger-nav.png" alt="">
+        </div>
+        <div class="hamburger-nav">
+            <div class="exit-image" onclick="toggleNav()">
+                <img src="/assets/cross.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="home-container">
+            <div class="home-info">
+                <div class="info">
+                    <p>Hello,</p><p> I am <word>Shemuel</word></p>
+                </div>
+                <div class="web-dev">
+                    <div class="static-text">I'm a</div>
+                    <ul class="dynamic-text">
+                        <li><span>Web Developer</span></li>
+                        <li><span>Web Designer</span></li>
+                    </ul>
+                </div>
+                <div class="buttons">
+                    <button class="about-me-btn" onclick="location.href='#about'">About Me <div class="arrow-down"><img src="/assets/arrow-down.png" alt=""></div></button>
+                    <div class="social-media-btn">
+                        <button><img src="/assets/facebook-icon.png" alt=""></button>
+                        <button><img src="/assets/instagram-icon.png" alt=""></button>
+                        <button><img src="/assets/github-icon.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="/assets/shem-image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h1>ABOUT ME</h1>
+            <div class="about-content">
+                <div class="chatbox1 chatbox">
+                    <p>
+                        I'm thrilled to be part of this community as an Information Technology enthusiast.
+                         My name is <word><b>Shemuel Rei V. Lagrosa</b></word>, and I'm currently navigating the exciting and ever-evolving 
+                         landscape of IT as a student. I'm on a quest to understand the intricacies of technology, 
+                         from coding and networks to cybersecurity and beyond.
+                    </p>
+                </div>
+                <div class="chatbox2 chatbox">
+                    <p>
+                        As a developer, I thrive on turning lines of code into functional and aesthetically 
+                        pleasing websites. From front-end magic that captivates users to back-end wizardry 
+                        that ensures seamless functionality, I love the challenge of bringing ideas to life 
+                        in the digital realm.
+                    </p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="/assets/shem-image2.png" alt="">
+            </div>
+            <div class="scroll-down">
+                <img src="/assets/scroll-down.png" alt="" onclick="location.href='#education'">
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="education-container">
+            <h1>EDUCATION</h1>
+            <div class="educ-boxes">
+                <div class="box">
+                    <p class="school-level">Primary Education</p>
+                    <p class="school-name">Completed @ Palawan Elementary School</p>
+                    <div class="circle">1</div>
+                </div>
+                <div class="box">
+                    <p class="school-level">Secondary Education</p>
+                    <p class="school-name">Completed @ Palawan National Highschool</p>
+                    <div class="circle">2</div>
+                </div>
+                <div class="box">
+                    <p class="school-level">Tertiary Education</p>
+                    <p class="school-name">Currently a 2nd Year Student @ WIT</p>
+                    <div class="circle">3</div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <img src="/assets/scroll-down.png" alt="" onclick="location.href='#skills'">
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skills-container">
+            <h1>MY SKILLS</h1>
+            <div class="skills-boxes">
+                <div class="skill">
+                    <h3>HTML AND CSS</h3>
+                    <div class="skills-images">
+                        <img src="/assets/html.png" alt="">
+                        <img src="/assets/css.png" alt="">
+                    </div>
+                    <p>HTML provides web page structure, whereas CSS is mainly 
+                        used to control web page styling.</p>
+                </div>
+                <div class="skill">
+                    <h3>JAVASCRIPT</h3>
+                    <div class="skills-images">
+                        <img src="/assets/javascript.png" alt="">
+                    </div>
+                    <p>JavaScript is a scripting language for creating dynamic web page content.</p>
+                </div>
+                <div class="skill">
+                    <h3>FIGMA</h3>
+                    <div class="skills-images">
+                        <img src="/assets/figma.png" alt="">
+                    </div>
+                    <p>Figma is a browser-based web design tool that lets teams of users collaborate 
+                        on projects to build interactive user interface prototypes.</p>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <img src="/assets/scroll-down.png" alt="" onclick="location.href='#projects'">
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-container">
+            <h1>MY PROJECTS</h1>
+            <div class="projects-boxes">
+                <div class="project">
+                    <h3>BLOG WEBSITE</h3>
+                    <div class="project-image">
+                        <img src="/assets/website-blog.jpg" alt="">
+                    </div>
+                    <button class="github-link">
+                        Github
+                        <img src="/assets/github-icon.png" alt="">
+                    </button>
+                </div>
+                <div class="project">
+                    <h3>E-COMMERCE</h3>
+                    <div class="project-image">
+                        <img src="/assets/ecommerce-website.jpg" alt="">
+                    </div>
+                    <button class="github-link">
+                        Github
+                        <img src="/assets/github-icon.png" alt="">
+                    </button>
+                </div>
+                <div class="project">
+                    <h3>NETFLIX CLONE</h3>
+                    <div class="project-image">
+                        <img src="/assets/netflix.jpg" alt="">
+                    </div>
+                    <button class="github-link">
+                        Github
+                        <img src="/assets/github-icon.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <img src="/assets/scroll-down.png" alt="" onclick="location.href='#contact'">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h1>CONTACT ME</h1>
+            <span class="line-break"></span>
+            <div class="contacts">
+                <div class="phone contact">
+                    <h3>PHONE</h3>
+                    <div class="contact-image">
+                        <img src="/assets/phone.png" alt="">
+                    </div>
+                    <p>09XXXXXXXXX</p>
+                </div>
+                <div class="address contact">
+                    <h3>ADDRESS</h3>
+                    <div class="contact-image">
+                        <img src="/assets/address.png" alt="">
+                    </div>
+                    <p>Iloilo Philippines</p>
+                </div>
+                <div class="email contact">
+                    <h3>EMAIL</h3>
+                    <div class="contact-image">
+                        <img src="/assets/email.png" alt="">
+                    </div>
+                    <p>example@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <p>Copyright © 2023 SHEM. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

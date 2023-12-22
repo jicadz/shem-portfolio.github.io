@@ -1,0 +1,298 @@
+@media screen and (max-width: 1024px) and (min-width: 601px){
+
+    section {
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    h1 {
+        padding-top: 1rem;
+    }
+
+    /* NAV */
+
+    .navbar {
+        height: 12vh;
+        padding-top: 1rem;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hamburger-nav-image {
+        display: block;
+    }
+    
+    .hamburger-nav {
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 10px gray;
+        border-radius: 10px;
+        width: 200px;
+        height: 300px;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform .2s ease;
+    }
+
+    .hamburger-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+    .hamburger-nav ul li a {
+        line-height: 2;
+        font-size: 1.2rem;
+    }
+
+    .hamburger-nav-image, .exit-image {
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .hamburger-nav-image {
+        right: 3rem;
+    }
+
+    .exit-image {
+        top: .5rem;
+        right: 1rem;
+    }
+
+    .show-nav {
+        transform: scaleY(1);
+    }
+
+    .remove-nav {
+        display: none;
+    }
+
+    /* HOME */
+
+    .home-container {
+        flex-direction: column-reverse;
+        padding-top: 3rem;
+    }
+
+    .home-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-me-btn {
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .arrow-down {
+        width: 25px;
+    }
+    
+    .about-me-btn img {
+        width: 100%;
+    }
+
+    .social-media-btn {
+        margin-top: 1.5rem;
+    }
+
+    .social-media-btn button {
+        width: 50px;
+        height: 50px;
+        margin: 0 .8rem;
+    }
+
+    .home-image {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .info p {
+        font-size: 2rem;
+        text-wrap: nowrap;
+        display: inline;
+    }
+
+    .web-dev {
+        font-size: 1.3rem;
+    }
+
+    /* TYPING ANIMATION */
+    .web-dev .dynamic-text {
+        height: 1.8rem;
+        line-height: 1.5;
+        
+    }
+
+    @keyframes slide {
+        100% {
+            top: -3.7rem;
+        }
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        overflow: hidden;
+        
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        margin-top: 15%;
+    }
+
+
+    .chatbox {
+        transform: scale(.9);
+        margin: 0;
+        background: rgba(255, 255, 255, .8);
+        box-shadow: 0 0 6px gray;
+    }
+
+    .chatbox p {
+        font-size: .9rem;
+    }
+
+    .scroll-down {
+        width: 60px;
+        height: 60px;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 1;
+    }
+
+    .scroll-down img {
+        width: 100%;
+    }
+
+    /* EDUCATION */
+
+    .educ-boxes {
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .circle {
+        transform: translateX(-50%) scale(.5);
+        top: -3rem;
+        left: 50%;
+    }
+
+    .box {
+        padding: 0 .5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+        max-width: 500px;
+    }
+
+    .box p {
+        margin-left: 0;
+        padding: .4rem 0;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .school-level {
+        color: cyan;
+        font-size: 1.8rem;
+    }
+    
+    .school-name {
+        color: #f99301;
+        font-size: 1.2rem;
+    }
+
+    /* SKILLS */
+
+    .skills-boxes {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .skill {
+        width: 70%;
+        max-width: 500px;
+        height: fit-content;
+    }
+
+    .skill h3 {
+        font-size: 1rem;
+    }
+
+    .skill p {
+        font-size: .8rem;
+    }
+
+    /* PROJECTS */
+
+    .projects-boxes {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .project {
+        width: 70%;
+        max-width: 500px;
+        height: 210px;
+    }
+
+    /* CONTACTS */
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .contact {
+        width: 60%;
+        max-width: 300px;
+        height: 180px;
+        text-align: center;
+    }
+
+    .contact h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+
+    /* FOOTER */
+
+    .footer-nav ul {
+        column-gap: 2rem;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 2;
+    }
+    
+    footer p {
+        padding-bottom: 2rem;
+    }
+}
+
