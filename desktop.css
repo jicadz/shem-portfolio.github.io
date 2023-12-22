@@ -519,6 +519,7 @@ footer {
     padding-bottom: 1rem;
     text-align: center;
     box-shadow: 0 0 10px gray;
+    padding: 0 1rem;
 }
 
 .footer-nav {
