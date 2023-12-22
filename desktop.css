@@ -549,7 +549,7 @@ footer p {
 @media screen and (max-height: 820px) {
 
     #skills, #projects {
-        height: 120vh;
+        height: 130vh;
     }
     
 }
