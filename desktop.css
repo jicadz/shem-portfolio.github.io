@@ -563,17 +563,6 @@ footer p {
     
 }
 
-@media screen and (max-height: 600px) and (min-height: 421px){
-    
-    section {
-        height: 130vh;
-    }
-
-    #skills, #projects {
-        height: 145vh;
-    }
-}
-
 @media screen and (max-height: 420px) and (min-height: 321px) {
 
     .navbar {
