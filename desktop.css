@@ -510,7 +510,7 @@ h1 {
 /* FOOTER */
 
 footer {
-    height: 17vh;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -547,6 +547,10 @@ footer p {
     padding-bottom: 1rem;
 }
 
+
+
+/* HEIGHT */
+
 @media screen and (max-height: 820px) {
 
     #skills, #projects {
@@ -557,6 +561,47 @@ footer p {
         bottom: 25%;
     }
     
+}
+
+@media screen and (max-height: 600px) and (min-height: 421px){
+    
+    section {
+        height: 130vh;
+    }
+
+    #skills, #projects {
+        height: 145vh;
+    }
+}
+
+@media screen and (max-height: 420px) and (min-height: 321px) {
+
+    .navbar {
+        padding-bottom: 1rem;
+    }
+    
+    section {
+        height: 160vh;
+    }
+
+    #skills, #projects {
+        height: 180vh;
+    }
+}
+
+@media screen and (max-height: 320px) {
+
+    .navbar {
+        padding-bottom: 1rem;
+    }
+    
+    section {
+        height: 180vh;
+    }
+
+    #skills, #projects {
+        height: 190vh;
+    }
 }
 
 
